@@ -22,4 +22,5 @@ def fderiv(state):
 start_point= [1., 2., 3.5]
 
 optima = gradient_descent(fderiv, start_point)
+
     
